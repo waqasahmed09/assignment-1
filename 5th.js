@@ -1,160 +1,225 @@
 
-// let name = prompt("What's your name");
+// // let name = prompt("What's your name");
 
-// alert(`hi, ${name}`);
+// // alert(`hi, ${name}`);
 
-// //Multiplication of Table 
+// // //Multiplication of Table 
 
-// alert(` 7 x 1 = 7
-// 7 x 2 = 14
-// 7 x 3 = 21
-// 7 x 4 = 28
-// 7 x 5 = 35
-// 7 x 6 = 42
-// 7 x 7 = 49
-// 7 x 8 = 56
-// 7 x 9 = 63
-// 7 x 10 = 70 `)
-
-
-// let cityName = prompt("Enter your City name")
-
-// if (cityName === "Karachi") {
-//    console.log("WElcome in my City") 
-// } else {
-//     console.log("bye bye")
-// }
+// // alert(` 7 x 1 = 7
+// // 7 x 2 = 14
+// // 7 x 3 = 21
+// // 7 x 4 = 28
+// // 7 x 5 = 35
+// // 7 x 6 = 42
+// // 7 x 7 = 49
+// // 7 x 8 = 56
+// // 7 x 9 = 63
+// // 7 x 10 = 70 `)
 
 
-//Question No. 4
+// // let cityName = prompt("Enter your City name")
 
-// let userGender = prompt(" Enter your Gender ");
-
-// if (userGender === "male" || "Male" || "MALE") {
-//     console.log(" Good Morning Sir ")
-
-// } else {
-//     console.log(" Good Morning Ma’am.");        
-// }
-
-//Question No. 5
-
-// let signalColor = prompt("Enter Signal Color");
-
-// if (signalColor === "red") {
-//     console.log("vehicles must stop");
-// } else if( signalColor === "yellow") {
-
-//     console.log("vehicles should get ready to move");
-// } else if( signalColor === "green"){
-//     console.log("vehicles can go now");
-// }
+// // if (cityName === "Karachi") {
+// //    console.log("WElcome in my City") 
+// // } else {
+// //     console.log("bye bye")
+// // }
 
 
-// let maxAge = +prompt("Enter your max age");
-// let currentAge = +prompt("Enter your current age");
+// //Question No. 4
 
-// if (currentAge <= maxAge ) {
-//     console.log("You are welcome");
+// // let userGender = prompt(" Enter your Gender ");
 
-// } else {
+// // if (userGender === "male" || "Male" || "MALE") {
+// //     console.log(" Good Morning Sir ")
 
-//     console.log("Putr tuu chutti kr ");
-// }
+// // } else {
+// //     console.log(" Good Morning Ma’am.");        
+// // }
 
-// var a = 4;
-// if (++a === 5){
-//  alert("given condition for variable a is true");
-// }
+// //Question No. 5
 
+// // let signalColor = prompt("Enter Signal Color");
 
-// let nameProductOne = prompt(" Name of item1") 
-// let nameProductTwo = prompt(" Name of item2") 
-// let priceProductOne = +prompt(" price of item1") 
-// let priceProductTwo = +prompt(" price of item2") 
-// let ordQuantity1 = +prompt(" Order Quantity1 ") 
-// let ordQuantity2 = +prompt(" Order Quantity2 ") 
-// let shippingCharges = +prompt(" enter shipping charges") 
+// // if (signalColor === "red") {
+// //     console.log("vehicles must stop");
+// // } else if( signalColor === "yellow") {
 
-// let sumofCharges = priceProductOne + priceProductTwo + ( ordQuantity1 * priceProductOne) + ( ordQuantity2 * priceProductTwo) + shippingCharges;
-
-// if (sumofCharges >= 2000) {
-//     sumofCharges - 200;
-//     console.log(` price of ${nameProductOne} & ${nameProductTwo} is ${nameProductOne} & ${priceProductTwo} with quantity of ${ordQuantity1} & ${ordQuantity2} including shipping charges ${shippingCharges} including 10% discount total bill is ${sumofCharges}  `)
-// } else {
-
-//     console.log(` price of ${nameProductOne} & ${nameProductTwo} is ${nameProductOne} & ${priceProductTwo} with quantity of ${ordQuantity1} & ${ordQuantity2} including shipping charges ${shippingCharges}  total bill is ${sumofCharges}  `)
-
-// }
-
-// let userNumber = +prompt("Guess any number")
-// let randomNumber = Math.floor(Math.random() * 10);
-
-// if(randomNumber === userNumber){
-//     console.log("Bingo! Correct answer")
-// } else {
-//     console.log("Better Luck!, Try next time")
-// }
+// //     console.log("vehicles should get ready to move");
+// // } else if( signalColor === "green"){
+// //     console.log("vehicles can go now");
+// // }
 
 
+// // let maxAge = +prompt("Enter your max age");
+// // let currentAge = +prompt("Enter your current age");
 
-// let nameTeamA = prompt(" Name of Team A")
-// let nameTeamB = prompt(" Name of Team B")
-// let scoreTeamA = +prompt(" Score of Team A")
-// let scoreTeamB = +prompt(" Score of Team B")
+// // if (currentAge <= maxAge ) {
+// //     console.log("You are welcome");
 
-// if (scoreTeamA > scoreTeamB) {
-//     console.log(` The Tournament winner is  ${ nameTeamA} with achiving score of ${scoreTeamA}`);
+// // } else {
 
-// } else if ( scoreTeamB > scoreTeamA ) {
+// //     console.log("Putr tuu chutti kr ");
+// // }
 
-//     console.log(` The Tournament winner is  ${ nameTeamB} with achiving score of ${scoreTeamB}`);
-// } else if (scoreTeamB === scoreTeamA ){
-//     console.log(` The Tournament tied`);
-// } else {
-
-//     console.log(` The Tournament tied`);
-// }
+// // var a = 4;
+// // if (++a === 5){
+// //  alert("given condition for variable a is true");
+// // }
 
 
-//     let inputString = +prompt("Enter any thing");
+// // let nameProductOne = prompt(" Name of item1") 
+// // let nameProductTwo = prompt(" Name of item2") 
+// // let priceProductOne = +prompt(" price of item1") 
+// // let priceProductTwo = +prompt(" price of item2") 
+// // let ordQuantity1 = +prompt(" Order Quantity1 ") 
+// // let ordQuantity2 = +prompt(" Order Quantity2 ") 
+// // let shippingCharges = +prompt(" enter shipping charges") 
 
-// if (inputString === typeof(String)) {
-//     console.log("input is string ");
-// } else if (inputString === typeof(Number)) {
-//     console.log("input is number");
+// // let sumofCharges = priceProductOne + priceProductTwo + ( ordQuantity1 * priceProductOne) + ( ordQuantity2 * priceProductTwo) + shippingCharges;
 
-// }else if ( inputString === typeof(Boolean)){
-//     console.log("input is bolean");
-// }else {
-//     console.log("input is something else");
-// }
+// // if (sumofCharges >= 2000) {
+// //     sumofCharges - 200;
+// //     console.log(` price of ${nameProductOne} & ${nameProductTwo} is ${nameProductOne} & ${priceProductTwo} with quantity of ${ordQuantity1} & ${ordQuantity2} including shipping charges ${shippingCharges} including 10% discount total bill is ${sumofCharges}  `)
+// // } else {
+
+// //     console.log(` price of ${nameProductOne} & ${nameProductTwo} is ${nameProductOne} & ${priceProductTwo} with quantity of ${ordQuantity1} & ${ordQuantity2} including shipping charges ${shippingCharges}  total bill is ${sumofCharges}  `)
+
+// // }
+
+// // let userNumber = +prompt("Guess any number")
+// // let randomNumber = Math.floor(Math.random() * 10);
+
+// // if(randomNumber === userNumber){
+// //     console.log("Bingo! Correct answer")
+// // } else {
+// //     console.log("Better Luck!, Try next time")
+// // }
 
 
 
-// let currentTemp = +prompt("enter percentage");
+// // let nameTeamA = prompt(" Name of Team A")
+// // let nameTeamB = prompt(" Name of Team B")
+// // let scoreTeamA = +prompt(" Score of Team A")
+// // let scoreTeamB = +prompt(" Score of Team B")
 
-// if (currentTemp >= 40) {
-//     console.log("It is too hot outside");
-// } else if (currentTemp >= 30) {
-//     console.log("The Weather today is Normal.");
-// } else if (currentTemp >= 20) {
-//     console.log("Today’s Weather is cool.");
-// } else if (  currentTemp >= 10){
-//     console.log("OMG! Today’s weather is so Cool.");
-// } else if ( currentTemp >= 0 || -10){
-//     console.log("Dear the weather is dangerous outside, stay in the Home");
-// }
+// // if (scoreTeamA > scoreTeamB) {
+// //     console.log(` The Tournament winner is  ${ nameTeamA} with achiving score of ${scoreTeamA}`);
+
+// // } else if ( scoreTeamB > scoreTeamA ) {
+
+// //     console.log(` The Tournament winner is  ${ nameTeamB} with achiving score of ${scoreTeamB}`);
+// // } else if (scoreTeamB === scoreTeamA ){
+// //     console.log(` The Tournament tied`);
+// // } else {
+
+// //     console.log(` The Tournament tied`);
+// // }
 
 
-let number = +prompt("enter number 1");
-let number2 = +prompt("enter number 2");
+// //     let inputString = +prompt("Enter any thing");
 
-if (number > number2) {
-    console.log(`the ${number} is greater than ${number2}`);
+// // if (inputString === typeof(String)) {
+// //     console.log("input is string ");
+// // } else if (inputString === typeof(Number)) {
+// //     console.log("input is number");
+
+// // }else if ( inputString === typeof(Boolean)){
+// //     console.log("input is bolean");
+// // }else {
+// //     console.log("input is something else");
+// // }
+
+
+
+// // let currentTemp = +prompt("enter percentage");
+
+// // if (currentTemp >= 40) {
+// //     console.log("It is too hot outside");
+// // } else if (currentTemp >= 30) {
+// //     console.log("The Weather today is Normal.");
+// // } else if (currentTemp >= 20) {
+// //     console.log("Today’s Weather is cool.");
+// // } else if (  currentTemp >= 10){
+// //     console.log("OMG! Today’s weather is so Cool.");
+// // } else if ( currentTemp >= 0 || -10){
+// //     console.log("Dear the weather is dangerous outside, stay in the Home");
+// // }
+
+
+// let number = +prompt("enter number 1");
+// let number2 = +prompt("enter number 2");
+
+// if (number > number2) {
+//     console.log(`the ${number} is greater than ${number2}`);
     
-} else if(number2 > number) {
-    console.log(`the ${number2} is greater than ${number}`)
-} else {
-    console.log("both are equals to each other");
-}
+// } else if(number2 > number) {
+//     console.log(`the ${number2} is greater than ${number}`)
+// } else {
+//     console.log("both are equals to each other");
+// }
+
+
+// // let ageOfUser = +prompt("Enter your age")
+// // let currentYear = +prompt("Enter current year");
+// // let userCurrentAge =  currentYear - ageOfUser ;
+
+// // console.log(` your birth year is ${userCurrentAge} or ${userCurrentAge + 1 } year `)
+
+
+
+// // let day =  prompt("Enter any day name");
+// // day = day.toLowerCase()
+
+// // if (day === "monday" || day === "tuesday" || day === "wednesday" || day === "thursday" || day === "friday") {
+// //     console.log("It’s a week day");
+    
+// // } else if( day === "saturday") {
+// //     console.log("It’s weekend");   
+// // } else if ( day === "sunday"){
+// //     console.log("Yay! It’s a holiday");
+// // } else {
+// //     console.log("kindly check your spelling");
+// // }
+
+
+
+// // let score = +prompt("Your Score?");
+
+// // if (score >= 50) {
+// //     console.log("You are passed");
+// // } else {console.log("Try again!");
+    
+// // }
+
+
+// let languageCode = prompt("enter language code");
+//     languageCode = languageCode.toLowerCase();
+
+// if (languageCode === "eg") {
+//     console.log("Hello World");
+// } else if (languageCode === "de") {
+//     console.log("Hallo Welt");
+// }else if(languageCode === "es") {
+//     console.log("Hola Mundo");
+// }
+
+
+// let number = +prompt("enter any number positive or negative");
+
+// if ( number > 0){
+//     console.log("The number is positive");
+// } else if ( number < 0 ){
+//     console.log("The number is negative")
+// } else if ( number === 0 ){
+//     console.log("number is neutral");
+// } else {
+//     console.log("kindly use only numbers");
+// }
+
+
+let InputNumber = +prompt("write any number");
+let InputString = prompt("write any noun name");
+
+console.log(` ${InputNumber} ${InputString}` );
+
